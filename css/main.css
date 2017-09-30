@@ -17,3 +17,11 @@ figcaption {
   font-style: italic;
   text-align: center;
 }
+
+nav a {
+  color: #793284;
+}
+
+nav a:hover {
+  color: #b42885;
+}
