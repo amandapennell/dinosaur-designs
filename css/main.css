@@ -15,24 +15,28 @@ h2 {
 }
 
 figcaption {
-  font-size: smaller;
+  font-size: .75rem;
   font-style: italic;
   text-align: center;
 }
 
-nav a {
-  color: #793284;
+ol li {
+  list-style-type: none;
+}
+
+nav a:link {
   font-family: "Patua One", cursive;
+  font-weight: bold;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #793284;
 }
 
 nav a:hover {
   color: #b42885;
+  text-decoration: none;
 }
 
-#hadrosaur {
-  font-size: larger;
-}
-
-ol li {
-  list-style-type: none;
+.hadrosaur {
+  font-size: 1rem;
 }
